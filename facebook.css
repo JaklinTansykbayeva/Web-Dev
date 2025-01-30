@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 900px;
+        }
+        .left-section {
+            max-width: 400px;
+        }
+        .left-section h1 {
+            color: #1877f2;
+            font-size: 48px;
+            margin: 0;
+        }
+        .left-section p {
+            font-size: 18px;
+        }
+        .right-section {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 360px;
+        }
+        .login-form input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-btn {
+            background-color: #1877f2;
+            color: white;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            width: 100%;
+            cursor: pointer;
+        }
+        .forgot-password {
+            display: block;
+            margin: 10px 0;
+            color: #1877f2;
+            text-decoration: none;
+        }
+        .create-account {
+            background-color: #42b72a;
+            color: white;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            width: 100%;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .create-page {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <h1>facebook</h1>
+            <p>Facebook помогает вам всегда оставаться на связи и общаться со своими знакомыми.</p>
+        </div>
+        <div class="right-section">
+            <form class="login-form">
+                <input type="text" placeholder="Электронный адрес или номер телефона">
+                <input type="password" placeholder="Пароль">
+                <button type="submit" class="login-btn">Вход</button>
+                <a href="#"  class="forgot-password">Забыли пароль?</a>
+                <hr>
+                <button class="create-account">Создать аккаунт</button>
+            </form>
+            <p class="create-page">Создать <strong>Страницу</strong> знаменитости, музыкальной группы или компании.</p>
+        </div>
+    </div>
+</body>
+</html>
+

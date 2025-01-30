@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phones img {
+    height: 500px;
+}
+
+.login-box {
+    background: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 40px;
+}
+
+input {
+    width: 250px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
+
+.login-btn {
+    width: 270px;
+    padding: 10px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.divider {
+    margin: 10px 0;
+    color: gray;
+}
+
+.fb-login {
+    background: none;
+    color: #385185;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.forgot-password {
+    color: #00376b;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.signup-box {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #0095f6;
+    font-weight: bold;
+}
